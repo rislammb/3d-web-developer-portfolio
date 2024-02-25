@@ -44,7 +44,6 @@ const ComputerCanvas = () => {
 
     // Define a callback function to handle changes to the media query
     const handleMediaQueryChange = () => {
-      console.log('start change');
       setIsMobile(mediaQuery.matches);
     };
 
